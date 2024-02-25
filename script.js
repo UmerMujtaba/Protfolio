@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Display next skill
-    let skills = document.querySelectorAll('#about2 .skills-abt2 span');
+    let skills = document.querySelectorAll('.skills-abt2 span');
     let index = 0;
 
     function showNextSkill() {

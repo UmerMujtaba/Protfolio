@@ -41,6 +41,7 @@
     height: 50px;
     width: auto;
     border: 1px solid #3a3838;;
+    
 }
 
 .Name{
@@ -57,20 +58,22 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
 /* Style the list items (li) */
 .navbar li {
     display: inline;
     margin-right: 10px; /* Adjust the spacing between items */
+  
 }
 
 /* Style the links within list items */
 .navbar a {
-    text-decoration: none;
+  
     color: white; /* Set the link color */
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Inter', sans-serif;
+   
+
 }
 
 /* Style the Name (UmerMujtaba) link */
@@ -82,12 +85,13 @@
 
 /* Style the options (Contact Me, Resume, etc.) */
 .navbar .opt {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 10px;
     margin-left: 45px;
     margin-right: 40px;
     float: right;
     padding: 5px;
+    font-family: 'Alex Brush', cursive;
 }
 
 /* Add hover effect to links */
@@ -107,25 +111,26 @@
     font-family: 'Merriweather', serif;
     font-size: 20px;
     margin-right: 45px;
-    /* border: 2px solid white; Add border */
-    /* border-radius: 10px; Optional: Add border radius for rounded corners */
-    height: 450px;
+    margin-left: 5px;
+    /* border: 2px solid white;
+    border-radius: 10px;  */
+    height: 480px;
     padding-top: 0px;
     padding-bottom: 0px;
+    width: 620px;
 }
 
 
 .picc {
     margin-right: auto; /* Adjust as needed */
-    /* border-radius: 2px solid red;
-    border-color: red;
-    /* border: 2px solid white; Add border */
-    /* border-radius: 10px; */ 
-   
+    /* border: 2px solid white;
+    border-radius: 10px;  */
+    
 }
 .intro-name{
     color: white;
     font-size: 55px;
+    margin-left: 5px;
 }
 
 .hey {
@@ -141,25 +146,29 @@
     font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 24px;
+    margin-left: 5px;
 }
 
 #about2 {
     font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 24px;
+    margin-left: 5px;
     
 }
-#about2 .skills-abt2 span {
+.skills-abt2 span {
     display: none; /* Hide all spans initially */
   
 }
 .skil{
-  font-size: 40px;
+  font-size: 32px;
   background: linear-gradient(to top, #CFE7FA 0%, #6393C1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
+
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -317,6 +326,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Add transitions */
 }
+.project_2 h2:hover{
+    color: #000000;
+}
 
 .project_2 h2{
     font-size: 20px;
@@ -328,7 +340,7 @@
 .project_2 p{
     font-family: 'Nunito', sans-serif; 
     font-size: 16px; 
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     text-align: justify;
 }
@@ -337,6 +349,10 @@
     transform: scale(1.02); /* Enlarge the card slightly */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
   }
+
+  .project_2 p:hover{
+   color: #000000;
+}
 .res_dwnld{
     height: 210px;
     width: auto;
