@@ -1,0 +1,611 @@
+.mainn{
+    background-color: black;
+   
+}
+@keyframes bgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* @keyframes colorChange {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+        background-color: #691f3b;
+    }
+} */
+
+/* Apply background animations to the body */
+.bg-animation {
+    animation: bgGradient 10s linear infinite, colorChange 10s linear infinite;
+    background-size: 200% 200%;
+    /* background: linear-gradient(360deg, rgba(231,232,194,1) 35%, rgb(161, 197, 244) 84%); */
+    /*background-image: linear-gradient(180deg, rgb(170, 173, 238) 15%, rgb(120, 212, 224) 55%, rgba(38,175,191,1) 75%);*/
+    color: #000000; /* Set your text color */
+    background: black;
+}
+
+.navbar{
+    margin-top: 0px;
+    height: 50px;
+    width: auto;
+    border: 1px solid #3a3838;;
+}
+
+.Name{
+    float: left;
+    margin-left: 40px;
+    font-size: 45px;
+    font-family: 'Alex Brush', cursive;
+    margin-top: 10px;
+    font-style: bold;
+    margin-bottom: 3px;
+    
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items (li) */
+.navbar li {
+    display: inline;
+    margin-right: 10px; /* Adjust the spacing between items */
+}
+
+/* Style the links within list items */
+.navbar a {
+    text-decoration: none;
+    color: white; /* Set the link color */
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style the Name (UmerMujtaba) link */
+.navbar .Name {
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    margin-top: 10px;
+}
+
+/* Style the options (Contact Me, Resume, etc.) */
+.navbar .opt {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+    float: right;
+    padding: 5px;
+}
+
+/* Add hover effect to links */
+.navbar a:hover {
+    color: #4744ac; /* Change link color on hover */
+}
+
+.container {
+    height: 700px;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-between; /* Add space between intro and image */
+}
+
+.intro {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-right: 45px;
+    /* border: 2px solid white; Add border */
+    /* border-radius: 10px; Optional: Add border radius for rounded corners */
+    height: 450px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.picc {
+    margin-right: auto; /* Adjust as needed */
+    /* border-radius: 2px solid red;
+    border-color: red;
+    /* border: 2px solid white; Add border */
+    /* border-radius: 10px; */ 
+   
+}
+.intro-name{
+    color: white;
+    font-size: 55px;
+}
+
+.hey {
+    height: 50px;
+    width: 320px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+#about2 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 24px;
+    
+}
+#about2 .skills-abt2 span {
+    display: none; /* Hide all spans initially */
+  
+}
+.skil{
+  font-size: 40px;
+  background: linear-gradient(to top, #CFE7FA 0%, #6393C1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github{
+    background: #007bb5;
+    color: white;
+}
+
+.button-23 {
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family: "RM Neue", sans-serif;
+    line-height: 1.15;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+    font-size: 18px;
+   margin-right: 15px;
+}
+
+.button-23:active {
+    background-color: #006AE8;
+}
+
+.button-23:hover {
+    background-color: #1C84FF;
+}
+.btnclass{
+    display: flex;
+    margin: 30px 10px 20px 5px;
+    flex-direction: row;
+}
+
+.middle{
+    width: auto;
+    height: 550px;
+    border-top: 1px solid white;
+}
+
+
+#headings{
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+
+.heading-name h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.skill_des p{
+    margin-left: 155px;
+    margin-right: 185px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    color: white;
+    text-align:justify;
+}
+
+
+.w3-container {
+    width: 750px;
+    margin-left: 275px;
+    margin-right: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: 700;
+  
+}
+
+.tag {
+    margin-bottom: 10px; /* Add spacing between tags */
+    font-weight: bold;
+    color: white;
+}
+
+.w3-light-grey {
+    background-color: #f1f1f1;
+}
+
+.w3-container.w3-blue {
+    background-color: #2196F3;
+    color: rgb(8, 8, 8);
+}
+
+.w3-container.w3-round-xlarge {
+    border-radius: 10px;
+    margin-bottom: 15px; /* Add spacing between bars */
+    font-size: 13px;
+    text-align: end;
+    
+}
+.container2{
+    height: 500px;
+    width: auto;
+    border-top: 1px solid white;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-right: 55px;
+}
+
+.project_2{
+    width: 46%; /* Adjust the width as needed */
+    border: 1px solid #868484;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Add transitions */
+}
+
+.project_2 h2{
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.project_2 p{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 16px; 
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+}
+.project_2:hover {
+    background-color: darkgrey; /* Change the background color on hover */
+    transform: scale(1.02); /* Enlarge the card slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
+  }
+.res_dwnld{
+    height: 210px;
+    width: auto;
+    border-top: 1px solid white;
+    
+}
+
+
+/* CSS */
+.button-1{
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family: "RM Neue", sans-serif;
+    line-height: 1.15;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    font-weight: bold;
+    font-size: 18px;
+   margin-left: 195px;
+   margin-top: 5px;
+ } 
+ .button-1:active {
+    background-color: #006AE8;
+}
+
+.button-1:hover {
+    background-color: #1C84FF;
+}
+.contactt{
+    border-top: 1px solid white;
+    height: 680px;
+    width: auto;
+   
+   
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-left: 95px;
+    height: 535px;
+    width: 48%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.button-49 {
+    align-items: center;
+    appearance: none;
+    border: 0;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    touch-action: manipulation;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 120px;
+  
+}
+  
+.button-49:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+  
+.button-49:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+    background-image: radial-gradient(100% 100% at 100% 0, #303bd4 0, #3ad6fd 100%)
+}
+  
+.button-49:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.larger-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.larger-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* Custom CSS for icons and headings */
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info-item .glyphicon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.contact-info-item h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #585858; /* Set your desired background color */
+    color: #fff; /* Set the text color to white or your desired color */
+    text-align: center;
+    padding: 20px 0; /* Add some padding for spacing */
+    border-top: 1px solid black;
+}
+
+.container4 {
+    font-size: 16px; /* Set the font size for the footer text */
+    text-align: center;
+}
+
+/* Add this CSS inside your existing <style> element or link to an external stylesheet */
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+    .navbar {
+        height: auto;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .navbar .Name {
+        float: none;
+        margin: 0;
+    }
+
+    .navbar .opt {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .picc {
+        margin: 20px 0;
+    }
+
+    .pic2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactt {
+        height: auto;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* Adjust styles for other sections as needed */
+    #headings {
+        margin-left: 0; /* Center headings */
+        text-align: center;
+    }
+
+    .skill_des p {
+        margin-left: 0; /* Center skill descriptions */
+    }
+
+    .w3-container {
+        width: 100%; /* Full width for skill bars */
+        margin: 0;
+    }
+
+    /* Adjust styles for other elements as needed */
+
+    /* Footer styles */
+    footer {
+        padding: 20px;
+        background-color: #333; /* Background color for the footer */
+        color: #fff; /* Text color for the footer */
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0;
+    }
+}
